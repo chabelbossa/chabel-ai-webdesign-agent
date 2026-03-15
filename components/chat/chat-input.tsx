@@ -68,7 +68,7 @@ const ChatInput = ({
               Sign in to continue
             </ItemTitle>
             <ItemDescription>
-              Create a free account to start designing with Sleek.
+              Create a free account to start designing with Chabel.
             </ItemDescription>
           </ItemContent>
           <ItemActions>

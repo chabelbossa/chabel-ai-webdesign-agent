@@ -1,4 +1,4 @@
-# Techwithemma License Terms
+# Chabel License Terms
 
 ## License Requirement
 
@@ -29,7 +29,7 @@ By purchasing a license, you are granted a **non-exclusive, non-transferable** r
 
 - You **may not** claim the code as your own.
 - You **may not** resell, distribute, or share the codebase with third parties.
-- You **may not** use the code to create tutorials, courses, or similar educational content based on Techwithemma’s projects without prior approval.
+- You **may not** use the code to create tutorials, courses, or similar educational content based on Chabel projects without prior approval.
 
 ## Scope of License
 
@@ -41,9 +41,9 @@ You are prohibited from creating educational content (such as tutorials, courses
 
 ## Liability Disclaimer
 
-By using our codebase, you acknowledge that it was originally created as an educational project. The code is provided **as is**, and Techwithemma assumes no responsibility for its suitability in production environments. It is your responsibility to ensure that the project meets your technical and business requirements.
+By using our codebase, you acknowledge that it was originally created as an educational project. The code is provided **as is**, and Chabel assumes no responsibility for its suitability in production environments. It is your responsibility to ensure that the project meets your technical and business requirements.
 
-Techwithemma is not liable for any damages, financial losses, or legal issues that arise from the use of this codebase.
+Chabel is not liable for any damages, financial losses, or legal issues that arise from the use of this codebase.
 
 ## Non-Exclusive License
 
@@ -55,7 +55,7 @@ Due to the nature of digital products, **all sales are final, and refunds are no
 
 ## Third-Party Tools & Integrations
 
-You acknowledge that the project may include dependencies, third-party integrations, external packages, or assets. Techwithemma does not provide support for external dependencies, and it is your responsibility to comply with their respective licensing terms.
+You acknowledge that the project may include dependencies, third-party integrations, external packages, or assets. Chabel does not provide support for external dependencies, and it is your responsibility to comply with their respective licensing terms.
 
 ## Agreement Acceptance
 

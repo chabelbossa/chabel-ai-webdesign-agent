@@ -1,75 +1,43 @@
-# 🎨 Sleek.ai – AI Web Design Agent
+# Chabel AI WebDesign Agent
 
-> ### Commercial License Required
->
-> This project is **Free for Personal Use**. A commercial license is **required** for any use of the code (in part or whole) for SaaS, client work, or production apps.
->
-> 👉 **[Get Commercial License](https://techwithemma.gumroad.com/l/qkomv)**
-> 👉 **[Read License Terms](https://github.com/TechWithEmmaYT/Sleek-AI-Web-Design-Agent/blob/main/TECHWITHEMMA-LICENSE.md)**
+Chabel AI WebDesign Agent is a Next.js app that helps you generate and iterate on modern web interfaces from natural-language prompts.
 
----
+## Features
 
-## ❤️ Support the Channel
+- AI-assisted web UI generation and regeneration
+- Interactive chat workflow with page-aware updates
+- Canvas-style preview and project history
+- Authentication and persisted projects with InsForge
 
-If this project helps you, you can support my work by:
+## Tech Stack
 
-* 🟢 [Try Insforge](https://insforge.dev/?utm_source=techwithemma)
-* ☕ [Buy Me a Coffee](https://dub.sh/buy-me-coffee)
-* 🎥 [Subscribe on YouTube](https://tinyurl.com/subcribe-to-techwithEmma)
-* 🌟 Star this repository
+- Next.js 16 + React 19
+- TypeScript
+- Tailwind CSS
+- InsForge + AI SDK
 
----
+## Getting Started
 
-## Watch the Full Build on YouTube
+1. Install dependencies:
 
-> In this video, you’ll build **Sleek.ai**, an AI-powered Web Design Agent from scratch. Learn how to generate web landing pages, dashboards, login screens, and more — with real-time updates, chat interface, canvas interactions, and full deployment.
+```bash
+npm install
+```
 
-👉 [Watch the Full Tutorial](https://www.youtube.com/watch?v=cLhjBkfsyvY)
+2. Configure environment variables in `.env` (InsForge and model settings).
 
----
+3. Start development server:
 
-## 🗝️ Key Features 👇
+```bash
+npm run dev
+```
 
-* 🔐 Authentication with **Insforge**
-* 🤖 AI-powered Web UI Design Agent
-* ✍️ Generate clean web designs from simple prompts
-* 🎨 Customizable themes & color schemes
-* 🖼️ Draggable web canvas
-* 🔁 Regenerate designs instantly
-* 💬 Chat interface for design guidance
-* ⚡ Real-time design updates
-* 🌐 Built with **Next.js 16, React, Insforge, Claude AI, Gemini AI**
-* 🎨 Styled with **Tailwind CSS + Shadcn/UI**
-* 🚀 Deployment-ready
+4. Open `http://localhost:3000`.
 
----
+## Branding
 
-## Getting Started / Running the Code
+All in-app naming is aligned to **Chabel**.
 
-1. **Sign up on Insforge:**
-   👉 [https://insforge.dev/?utm_source=techwithemma](https://insforge.dev/?utm_source=techwithemma)
-2. Create a **project** and connect it to your AI code editor.
-3. Go to **Settings** → copy your `BASE_URL` & `APIKEY` → paste into your `.env` file.
-4. Enable the following AI models in **Model Gateway**:
-   * `anthropic/claude-sonnet-4.5`
-   * `google/gemini-2.5-pro`
-   * `google/gemini-3.1-pro-preview`
-   * `google/gemini-2.5-flash-lite`
-5. Watch the video to see how to create tables**.
----
+## License
 
-## License Information
-
-Commercial use requires a paid license.
-👉 [Get a Commercial License](https://techwithemma.gumroad.com/l/qkomv)
-
-For full license details, see [TECHWITHEMMA-LICENSE.md](https://github.com/TechWithEmmaYT/Sleek-AI-Web-Design-Agent/blob/main/TECHWITHEMMA-LICENSE.md)
-
----
-
-## 📺 Subscribe for More Projects
-
-I build real-world SaaS, AI agents, and production-grade systems.
-
-🔔 Subscribe here:
-👉 [https://tinyurl.com/subcribe-to-techwithEmma](https://tinyurl.com/subcribe-to-techwithEmma)
+See `CHABEL-LICENSE.md`.

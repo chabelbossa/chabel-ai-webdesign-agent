@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { convertModelMessages, generateProjectTitle } from "@/app/action/action";
 import { getAuthServer } from "@/lib/insforge-server";
 import { createUIMessageStream, createUIMessageStreamResponse, generateId, UIMessage } from "ai";
-import { SLEEK_CHAT_PROMPT, SLEEK_INTENT_PROMPT, WEB_ANALYSIS_PROMPT, WEB_GENERATION_PROMPT } from "@/lib/prompt";
+import { CHABEL_CHAT_PROMPT, CHABEL_INTENT_PROMPT, WEB_ANALYSIS_PROMPT, WEB_GENERATION_PROMPT } from "@/lib/prompt";
 
 class AbortError extends Error {
   constructor() {
@@ -214,7 +214,7 @@ ${page.rootStyles}
     messages: [
       {
         role: "system",
-        content: `You are Sleek, an AI web design agent. You just finished building pages.
+        content: `You are Chabel, an AI web design agent. You just finished building pages.
 Write 1-2 sentences in first person. Natural, confident. No questions. No "let me know".`
       },
       {
@@ -365,7 +365,7 @@ async function runRegenerateWorker({
     messages: [
       {
         role: "system",
-        content: `You are Sleek, an AI web design agent. You just finished building pages.
+        content: `You are Chabel, an AI web design agent. You just finished building pages.
 Write 1-2 sentences in first person. Natural, confident. No questions. No "let me know".`
       },
       {
@@ -529,7 +529,7 @@ export async function POST(request: NextRequest) {
               messages: [
                 {
                   role: "system",
-                  content: SLEEK_INTENT_PROMPT,
+                  content: CHABEL_INTENT_PROMPT,
                 },
                 {
                   role: "user",
@@ -554,7 +554,7 @@ export async function POST(request: NextRequest) {
                 messages: [
                   {
                     role: "system",
-                    content: SLEEK_CHAT_PROMPT
+                    content: CHABEL_CHAT_PROMPT
                   },
                   ...modelMessages
                 ],
